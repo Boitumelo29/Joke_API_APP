@@ -12,9 +12,5 @@ class DataServices {
 }
 
 class DataServ {
-  Future getJoke() async {
-    //https://icanhazdadjoke.com/
-
-    print("my response: ${response.body}");
-  }
+  Future getJoke() async {}
 }
