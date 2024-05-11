@@ -10,7 +10,3 @@ class DataServices {
     print("my response: ${response.body}");
   }
 }
-
-class DataServ {
-  Future getJoke() async {}
-}
