@@ -13,8 +13,6 @@ class DataServices {
 
 class DataSeces {
   Future getJoke() async {
-    print(uri);
-    final response = await http.get(uri);
     print("my response: ${response.body}");
   }
 }
