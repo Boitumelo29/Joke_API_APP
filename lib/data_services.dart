@@ -12,8 +12,5 @@ class DataServices {
 }
 
 class DataServces {
-  Future getJoke() async {
-    final response = await http.get(uri);
-    print("my response: ${response.body}");
-  }
+  Future getJoke() async {}
 }
