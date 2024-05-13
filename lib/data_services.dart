@@ -10,5 +10,3 @@ class DataServices {
     print("my response: ${response.body}");
   }
 }
-
-class DataSeces {}
