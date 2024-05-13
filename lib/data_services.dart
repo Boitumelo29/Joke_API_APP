@@ -11,8 +11,4 @@ class DataServices {
   }
 }
 
-class DataSeces {
-  Future getJoke() async {
-    print("my response: ${response.body}");
-  }
-}
+class DataSeces {}
