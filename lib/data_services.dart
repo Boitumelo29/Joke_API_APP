@@ -10,3 +10,14 @@ class DataServices {
     print("my response: ${response.body}");
   }
 }
+
+class DataServces {
+  Future getJoke() async {
+    //https://icanhazdadjoke.com/
+
+    final uri = Uri.https('icanhazdadjoke.com');
+    print(uri);
+    final response = await http.get(uri);
+    print("my response: ${response.body}");
+  }
+}
