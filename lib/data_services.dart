@@ -11,6 +11,4 @@ class DataServices {
   }
 }
 
-class DataServces {
-  Future getJoke() async {}
-}
+class DataServces {}
